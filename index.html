@@ -14,6 +14,10 @@
     />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="icon" type="image/png" href="images/favicon-32x32.png" />
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body class="is-preload">
     <!-- Nav -->
@@ -21,7 +25,7 @@
       <ul class="container">
         <li><a href="#top">Top</a></li>
         <li><a href="#work">Tech & Framework</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#portfolio">Project</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -33,7 +37,7 @@
           <div class="col-4 col-5-large col-12-medium">
             <!-- my image -->
             <span class="image fit"
-              ><img src="images/me.jpg" alt="picture of me"
+              ><img src="images/me3.jpeg" alt="picture of me"
             /></span>
           </div>
           <div class="col-8 col-7-large col-12-medium">
@@ -43,7 +47,7 @@
             <p>
               I am a coder currently in London. My main interest is in website
               development with JavaScript and C# but I am always open to try new
-              frameworks and projects!
+              frameworks and projects to help achieve your goal!
             </p>
             <a
               href="https://drive.google.com/file/d/1yrfRyDOzWZXCfe-fR1xvvldJaF7WGyVu/view?usp=sharing"
@@ -66,32 +70,32 @@
         <div class="row aln-center">
           <div class="col-4 col-6-medium col-12-small">
             <section class="box style1">
-              <span class="icon featured fa-comments"></span>
+              <div class="center">
+                <span class="icon featured fas fa-laptop-code"></span>
+              </div>
               <h3>Front End</h3>
-              <p>
-                Ornare nulla proin odio consequat sapien vestibulum ipsum primis
-                sed amet consequat lorem dolore.
-              </p>
+              <div class="col-4 col-6-medium col-12-small"></div>
             </section>
           </div>
           <div class="col-4 col-6-medium col-12-small">
             <section class="box style1">
-              <span class="icon solid featured fa-camera-retro"></span>
+              <span class="icon solid featured fa-server"></span>
               <h3>Back End</h3>
-              <p>
-                Ornare nulla proin odio consequat sapien vestibulum ipsum primis
-                sed amet consequat lorem dolore.
-              </p>
+              <div class="col-4 col-6-medium col-12-small"></div>
             </section>
           </div>
           <div class="col-4 col-6-medium col-12-small">
             <section class="box style1">
-              <span class="icon featured fa-thumbs-up"></span>
+              <div class="row">
+                <div class="col-6">
+                  <span class="icon featured fas fa-database"></span>
+                </div>
+                <div class="col-6">
+                  <span class="icon featured fas fa-code-branch"></span>
+                </div>
+              </div>
               <h3>Database & Version Control</h3>
-              <p>
-                Ornare nulla proin odio consequat sapien vestibulum ipsum primis
-                sed amet consequat lorem dolore.
-              </p>
+              <div class="col-4 col-6-medium col-12-small"></div>
             </section>
           </div>
         </div>
@@ -108,60 +112,92 @@
       <div class="container">
         <header>
           <h2>Here’s some stuff I made recently.</h2>
-          <p>Click on each image to see their live demo.</p>
+          <p>Click on each image to see their live demo</p>
         </header>
         <div class="row">
+          <!-- card 1 -->
           <div class="col-4 col-6-medium col-12-small">
             <article class="box style2">
-              <a href="#" class="image featured"
+              <a href="#" target="_blank" class="image featured"
                 ><img src="images/pic01.jpg" alt=""
               /></a>
               <h3><a href="#">Magna feugiat</a></h3>
               <p>Ornare nulla proin odio consequat.</p>
+              <a href="#" target="_blank"> View Source Code </a>
             </article>
           </div>
+          <!-- card 2 -->
           <div class="col-4 col-6-medium col-12-small">
             <article class="box style2">
-              <a href="#" class="image featured"
+              <a href="#" target="_blank" class="image featured"
                 ><img src="images/pic02.jpg" alt=""
               /></a>
               <h3><a href="#">Veroeros primis</a></h3>
               <p>Ornare nulla proin odio consequat.</p>
+              <a href="#" target="_blank"> View Source Code </a>
             </article>
           </div>
+          <!-- card 3 -->
           <div class="col-4 col-6-medium col-12-small">
             <article class="box style2">
-              <a href="#" class="image featured"
+              <a href="#" target="_blank" class="image featured"
                 ><img src="images/pic03.jpg" alt=""
               /></a>
               <h3><a href="#">Lorem ipsum</a></h3>
               <p>Ornare nulla proin odio consequat.</p>
+              <a href="#" target="_blank"> View Source Code </a>
             </article>
           </div>
+          <!-- card4 -->
           <div class="col-4 col-6-medium col-12-small">
             <article class="box style2">
-              <a href="#" class="image featured"
-                ><img src="images/pic04.jpg" alt=""
+              <a
+                href="https://kdoge007.github.io/movie-search/"
+                target="_blank"
+                class="image featured"
+                ><img
+                  src="images/Movie Search App centre.png"
+                  alt="A screenshort of my movie search app"
               /></a>
-              <h3><a href="#">Tempus dolore</a></h3>
-              <p>Ornare nulla proin odio consequat.</p>
+              <h3><a href="#">Movie Search (React)</a></h3>
+              <a href="#" target="_blank"> View Source Code </a>
+              <p>
+                A React personal project where the user can search a movie title
+                and look for its' rating and description. This web app parse the
+                user input into a request and send it to a movie database -
+                TMDb, www.themoviedb.org, through an API and render the returned
+                result in the same page below. This is done by using React Hooks
+                and useState.
+              </p>
             </article>
           </div>
+          <!-- card 5 -->
           <div class="col-4 col-6-medium col-12-small">
             <article class="box style2">
-              <a href="#" class="image featured"
-                ><img src="images/pic05.jpg" alt=""
+              <a
+                href="https://kdoge007.github.io/pomodoro-timer/"
+                target="_blank"
+                class="image featured"
+                ><img
+                  src="images/Pomdoro.PNG"
+                  alt="a screenshot of my Pomdoro app"
               /></a>
-              <h3><a href="#">Feugiat aliquam</a></h3>
-              <p>Ornare nulla proin odio consequat.</p>
+              <h3><a href="#">Pomodo Timer (Javascript)</a></h3>
+              <a href="" target="_blank"> View Source Code </a>
+              <p>
+                A front end Pomodoro timer application. The timer switch to a
+                long break on the 4th Pomodoro session.
+              </p>
             </article>
           </div>
+          <!-- card 6 -->
           <div class="col-4 col-6-medium col-12-small">
             <article class="box style2">
-              <a href="#" class="image featured"
+              <a href="#" target="_blank" class="image featured"
                 ><img src="images/pic06.jpg" alt=""
               /></a>
-              <h3><a href="#">Sed amet ornare</a></h3>
+              <h3><a href="#">and more projects...</a></h3>
+              <a href="#" target="_blank"> View Source Code </a>
               <p>Ornare nulla proin odio consequat.</p>
             </article>
           </div>
