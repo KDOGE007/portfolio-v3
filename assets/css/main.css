@@ -1726,7 +1726,7 @@ article {
 }
 
 section {
-  height: 500px;
+  height: 550px;
 }
 
 section > :last-child,
@@ -2111,6 +2111,20 @@ ul.actions li:first-child {
 
 .icon.featured:before {
   font-size: 1em;
+}
+
+#work img {
+  height: 80px;
+  width: 100%;
+  max-width: 90px;
+}
+
+#work p {
+  margin-bottom: 0em;
+}
+
+.tech-stack {
+  padding: 25px 0 0;
 }
 
 /* Wrappers */
