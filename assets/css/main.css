@@ -216,6 +216,7 @@ a:hover {
 a img {
   border: 0;
   height: 260px;
+  border-radius: 10px 10px 0 0;
 }
 
 b,
@@ -1649,7 +1650,7 @@ form textarea:focus {
 }
 
 form textarea {
-  height: 15em;
+  height: 12em;
 }
 
 form .actions:last-child {
@@ -2133,7 +2134,7 @@ ul.actions li:first-child {
   background-image: url('images/bg.png');
   box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05),
     inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
-  padding: 8em 0 8em 0;
+  padding: 4em 0 4em 0;
   text-align: center;
 }
 
@@ -2325,6 +2326,11 @@ body > article {
   color: #777;
 }
 
+.round_border {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 /* Large */
 
 @media screen and (max-width: 1280px) {
@@ -2347,7 +2353,7 @@ body > article {
   /* Wrappers */
 
   .wrapper {
-    padding: 5em 0 5em 0;
+    padding: 4em 0 4em 0;
     text-align: center;
   }
 
