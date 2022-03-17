@@ -2388,6 +2388,10 @@ body > article {
   #top .image {
     margin: 0 auto 2em auto;
   }
+
+  #portfolio > div > div > div > article {
+    height: 650px;
+  }
 }
 
 /* Small */
@@ -2583,6 +2587,10 @@ body > article {
 
   #contact footer {
     margin: 0;
+  }
+
+  #portfolio > div > div > div > article {
+    height: auto;
   }
 
   /* Copyright */
