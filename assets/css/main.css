@@ -339,6 +339,10 @@ footer > p {
   font-size: 1.25em;
 }
 
+.ml-1{
+  margin-left: 1rem;
+}
+
 /* Container */
 
 .container {
